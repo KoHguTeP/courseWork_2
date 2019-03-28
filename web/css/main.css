@@ -1,0 +1,94 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    border-radius: 20px;
+}
+th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #F56433;
+    color: #F56433;
+}
+tbody tr:nth-child(2) {
+    border-bottom: 2px solid #F56433;
+}
+td {
+    padding: 10px;
+    color: #8D8173;
+}
+
+table_2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    border-radius: 20px;
+}
+th_2 {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #8e76f5;
+    color: #8e76f5;
+}
+tbody tr_2:nth-child(2) {
+    border-bottom: 2px solid #8e76f5;
+}
+td_2 {
+    padding: 10px;
+    color: #3c8d8c;
+}
+
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+    --primary-c: #2196F3;
+    --secondary-c: #B2D7F5;
+
+    --white: #FDFBFB;
+
+    --text: #082943;
+    --bg: var(--primary-c);
+}
+
+
+/* Basic Config
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 50px;
+    margin: 0;
+}
+
+li {
+    display: block;
+    position: relative;
+    padding: 20px 0px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: 900;
+}

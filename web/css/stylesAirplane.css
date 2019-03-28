@@ -1,0 +1,134 @@
+body {
+    background-size: 100%;
+    background-image: url(backgroundAirplane3.jpg) ;
+}
+
+
+a.button3{
+     display:inline-block;
+     padding:0.3em 1.2em;
+     margin:0 0.3em 0.3em 0;
+     border-radius:2em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#FFFFFF;
+     background-color:#4eb5f1;
+     text-align:center;
+     transition: all 0.2s;
+}
+a.button3:hover{
+     background-color:#4095c6;
+}
+
+.design {
+    display: inline-block; /* Строчно-блочный элемент */
+    padding: 5px 20px; /* Добавляем поля */
+    text-decoration: none; /* Убираем подчёркивание у ссылки */
+    cursor: pointer; /* Курсор в виде руки */
+    background: #deefff; /* Фон для браузеров, не поддерживающих градиент */
+    /* Градиент */
+    background: -moz-linear-gradient(top, #deefff 0%, #42d3ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#deefff), color-stop(100%,#42d3ff));
+    background: -webkit-linear-gradient(top, #deefff 0%,#42d3ff 100%);
+    background: -o-linear-gradient(top, #deefff 0%,#42d3ff 100%);
+    background: -ms-linear-gradient(top, #deefff 0%,#42d3ff 100%);
+    background: linear-gradient(top, #deefff 0%,#42d3ff 100%);
+    border-radius: 10px; /* Скругляем уголки */
+    border: 1px solid #42d3ff; /* Добавляем синюю рамку */
+    font: 15px/1 Arial, sans-serif; /* Рубленый шрифт */
+    color: #0000009c; /* Цвет текста и ссылки */
+
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: left;
+    border-collapse: separate;
+    background: #42d3ff;
+    border: 16px solid #42d3ff;
+    border-radius: 20px;
+}
+caption {
+    color: #0000009c;
+    background: #42d3ff;
+    font-size: 25px;
+    padding: 10px;
+    border-collapse: separate;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 30px;
+}
+th {
+    color: #0000009c;
+    font-size: 18px;
+    padding: 2px 0px;
+}
+td {
+    color: #0000009c;
+    background: #deefff75;
+}
+
+::placeholder {
+    color: #656665;
+}
+
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #42d3ff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #656665;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #deefff75;
+}
+
+.active {
+    background:  linear-gradient(45deg, #deefff75, #42d3ff);
+}
+
+
+input {
+    border-radius: 0;
+    background: transparent;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 268px;
+}
+
+select {
+    border-radius: 0;
+    background: transparent;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 268px;
+}
